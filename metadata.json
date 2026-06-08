@@ -1,0 +1,6 @@
+{
+  "name": "Roots of Wisdom Dental Clinic",
+  "description": "Personalised dental care with surgical precision. Best specialist-led and women-owned premium clinic in Vashi, Navi Mumbai.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

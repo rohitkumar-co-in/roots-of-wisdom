@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-cormorant), serif;
+  --font-sans: var(--font-dm-sans), sans-serif;
+  --color-brand-bg: #FAF7F2;
+  --color-brand-primary: #0A6B6B;
+  --color-brand-accent: #C9A84C;
+  --color-brand-dark: #0A2E2E;
+  --color-brand-trust: #E8F4F4;
+  --color-brand-card: #FFFFFF;
+}
+
+/* Custom shadow to match the user's design system specifications */
+.shadow-brand {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+}
+
+.shadow-brand-hover {
+  box-shadow: 0 12px 32px rgba(10, 107, 107, 0.15);
+}
+
+/* Base resets or bespoke scrollbar */
+html {
+  font-family: var(--font-dm-sans), sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-cormorant), serif;
+}
